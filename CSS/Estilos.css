@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "monotype-corsiva";
+  src: url(../assets/fonts/monotype-corsiva.ttf);
+}
+@font-face {
+  font-family: "monserrat-variable";
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace-cusrsiva;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  background-color: #000000;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "monotype-corsiva";
+  text-align: start;
+  font-size: 48px;
+  color: #c19d56;
+  font-weight: 400;
+}
+
+button {
+  height: 48px;
+  width: 168px;
+  background-color: #c19d56;
+  color: #fff;
+}
+
+.sup {
+  background-image: url("../assets/piedras-de-santiago-tradicion-ciudad.jpg");
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  color: #c19d569e;
+  text-align: center;
+  margin-left: 60px;
+  font-size: 48px;
+  width: 514px;
+}
+.inf {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+  flex-wrap: wrap;
+  padding-top: 111px;
+  min-width: 800px;
+}
+
+.centro {
+  width: 301px;
+  height: 379px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 111px;
+}
+
+.box1 {
+  background-image: url("../assets/components/intro-sobre-nosotros.webp");
+}
+
+.box2 {
+  background-image: url("../assets/components/intro-elaboracion.webp");
+}
+
+.box3 {
+  background-image: url("../assets/components/intro-para-empresas.webp");
+}
+
+.box4 {
+  background-image: url("../assets/components/intro-eventos.webp");
+}
+
+.iconos {
+  width: 90px;
+}
+.main__p {
+  font-family: "monotype-corsiva";
+  font-size: 26px;
+  color: white;
+}
+footer {
+  font-size: 19px;
+  font-weight: 400;
+  background-color: #000000;
+  padding: 15px;
+  color: #c19d56;
+}
